@@ -26,7 +26,7 @@
 			style="background-image: url('https://images.unsplash.com/photo-1540497077202-7c8a3999166f?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80'); 
 			transform: translateY({scrollY * 0.3}px) scale(1.1);"
 		></div>
-		
+
 		<!-- Overlay -->
 		<div class="absolute inset-0 bg-black/70"></div>
 		<div class="absolute inset-0 bg-gradient-to-br from-black/80 via-transparent to-black/90"></div>
@@ -133,7 +133,7 @@
 
 					<!-- CTA Buttons -->
 					<div
-						class="mb-24 flex transform flex-col gap-4 transition-all delay-900 duration-1000 sm:flex-row sm:justify-center {isVisible
+						class="mb-20 flex transform flex-col gap-4 transition-all delay-900 duration-1000 sm:flex-row sm:justify-center {isVisible
 							? 'translate-y-0 opacity-100'
 							: 'translate-y-8 opacity-0'}"
 					>
@@ -156,48 +156,15 @@
 						>
 							<span>OUR STORY</span>
 							<svg class="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+								<path
+									stroke-linecap="round"
+									stroke-linejoin="round"
+									stroke-width="2"
+									d="M19 9l-7 7-7-7"
+								/>
 							</svg>
 						</button>
 					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<!-- Founding Principles Preview -->
-	<div class="absolute bottom-8 left-1/2 -translate-x-1/2 transform">
-		<div
-			class="flex items-center space-x-8 rounded-2xl border border-white/10 bg-white/5 px-8 py-4 backdrop-blur-md transition-all delay-1000 duration-1000 {isVisible
-				? 'translate-y-0 opacity-100'
-				: 'translate-y-4 opacity-0'}"
-		>
-			<!-- Core Values Preview -->
-			<div class="flex items-center space-x-6">
-				<div class="text-center">
-					<div class="text-2xl">🎯</div>
-					<div class="text-sm font-medium text-white">Excellence</div>
-				</div>
-				
-				<div class="h-8 w-px bg-white/20"></div>
-				
-				<div class="text-center">
-					<div class="text-2xl">🤝</div>
-					<div class="text-sm font-medium text-white">Community</div>
-				</div>
-				
-				<div class="h-8 w-px bg-white/20"></div>
-				
-				<div class="text-center">
-					<div class="text-2xl">💪</div>
-					<div class="text-sm font-medium text-white">Transformation</div>
-				</div>
-
-				<div class="h-8 w-px bg-white/20"></div>
-				
-				<div class="text-center">
-					<div class="text-2xl">🚀</div>
-					<div class="text-sm font-medium text-white">Innovation</div>
 				</div>
 			</div>
 		</div>

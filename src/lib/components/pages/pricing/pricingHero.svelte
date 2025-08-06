@@ -26,7 +26,7 @@
 			style="background-image: url('https://images.unsplash.com/photo-1534438327276-14e5300c3a48?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80'); 
 			transform: translateY({scrollY * 0.3}px) scale(1.1);"
 		></div>
-		
+
 		<!-- Overlay -->
 		<div class="absolute inset-0 bg-black/75"></div>
 		<div class="absolute inset-0 bg-gradient-to-br from-black/60 via-transparent to-black/80"></div>
@@ -88,7 +88,7 @@
 
 					<!-- Subtitle -->
 					<p class="mx-auto mb-12 max-w-4xl text-xl leading-relaxed text-gray-300 md:text-2xl">
-						Flexible membership options designed to fit your lifestyle and goals. 
+						Flexible membership options designed to fit your lifestyle and goals.
 						<span class="font-semibold text-white">
 							No hidden fees, no long-term contracts, just transparent pricing for premium fitness.
 						</span>
@@ -150,7 +150,12 @@
 						>
 							<span>VIEW ALL PLANS</span>
 							<svg class="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+								<path
+									stroke-linecap="round"
+									stroke-linejoin="round"
+									stroke-width="2"
+									d="M19 9l-7 7-7-7"
+								/>
 							</svg>
 						</button>
 					</div>
@@ -160,7 +165,7 @@
 	</div>
 
 	<!-- Pricing Preview -->
-	<div class="absolute bottom-8 left-1/2 -translate-x-1/2 transform">
+	<div class="absolute bottom-24 left-1/2 -translate-x-1/2 transform">
 		<div
 			class="flex items-center space-x-8 rounded-2xl border border-white/10 bg-white/5 px-8 py-4 backdrop-blur-md transition-all delay-1000 duration-1000 {isVisible
 				? 'translate-y-0 opacity-100'
@@ -172,25 +177,25 @@
 					<div class="text-sm font-medium text-gray-400">Basic</div>
 					<div class="text-xl font-bold text-white">$29/mo</div>
 				</div>
-				
+
 				<div class="h-8 w-px bg-white/20"></div>
-				
+
 				<div class="text-center">
 					<div class="text-sm font-medium text-gray-400">Premium</div>
 					<div class="text-xl font-bold text-white">$59/mo</div>
 					<div class="text-xs text-green-400">Most Popular</div>
 				</div>
-				
+
 				<div class="h-8 w-px bg-white/20"></div>
-				
+
 				<div class="text-center">
 					<div class="text-sm font-medium text-gray-400">Elite</div>
 					<div class="text-xl font-bold text-white">$99/mo</div>
 				</div>
 			</div>
-			
+
 			<div class="h-8 w-px bg-white/20"></div>
-			
+
 			<!-- Special Offer -->
 			<div class="flex items-center space-x-2">
 				<div class="flex h-3 w-3 animate-pulse rounded-full bg-green-400"></div>
